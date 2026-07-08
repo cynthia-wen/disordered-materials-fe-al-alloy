@@ -1,4 +1,4 @@
-# Modeling Structural Disorder in an Fe-Al Alloy
+# Hierarchically Modeling Structural Disorder in an Fe-Al Alloy
 ### Monte Carlo $\rightarrow$ uMLIP Relaxation $\rightarrow$ Molecular Dynamics Pipeline
 
 This repository contains the pipeline developed to simulate the structural disorder of a single-crystal iron-aluminium alloy (composition 80% Fe and 20% Al). 
