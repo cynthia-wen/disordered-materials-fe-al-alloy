@@ -1,0 +1,3 @@
+INPUTS diffuse_intensity.h5
+SYMMETRY m-3m
+OUTPUT symm.h5
