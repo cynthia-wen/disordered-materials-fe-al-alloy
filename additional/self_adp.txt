@@ -1,0 +1,6 @@
+=== SELF-SHELL ADP, Fe (Yell origin term) ===
+300 frames, 2000 atoms per frame, Fe fraction 0.8000
+  U_iso = 0.005467 A^2    B_iso = 0.4317 A^2
+  U_xx/yy/zz = +0.005469 +0.005469 +0.005464
+  U_xy/xz/yz = +0.000002 -0.000008 +0.000017
+  isotropy: max|off-diag| / U_iso = 0.0031
