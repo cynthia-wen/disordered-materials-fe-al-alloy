@@ -1,0 +1,7 @@
+INPUTS experiment.h5
+SYMMETRY m-3m
+CENTERING I
+TRIM_FOR_YELL
+FFT
+PUNCH_AND_FILL 0.05 -0.1
+OUTPUT experiment_punched.h5
