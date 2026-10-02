@@ -5,9 +5,9 @@ import os, re, glob
 import numpy as np
 from ase.io import read
 
-unrelaxed_folder = "adp_calculation/fe-al_mc_structures/final_structures"
-relaxed_folder   = "adp_calculation/fe-al_md_structures/final_structures"
-output_filename  = "self_adp.txt"
+unrelaxed_folder = "additional/fe-al-10/fe-al_mc_structures/final_structures"
+relaxed_folder   = "additional/fe-al-10/fe-al_md_structures/final_structures"
+output_filename  = "additional/self_adp.txt"
 
 # pair files by frame number
 frame_no = lambda p: int(re.search(r"(\d+)", os.path.basename(p)).group(1))

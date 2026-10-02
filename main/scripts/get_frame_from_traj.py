@@ -2,8 +2,8 @@ import os
 from ase.io import read, write
 
 # Define the source template and destination directory
-SOURCE_DIR_TEMPLATE = "testing/multi/structures_T0.010/"
-DEST_DIR = "testing/multi/unrelaxed_structures_T0.010"
+SOURCE_DIR_TEMPLATE = "main/data/testing/multi/structures_T0.010/"
+DEST_DIR = "main/data/testing/multi/unrelaxed_structures_T0.010"
 
 # Create the destination folder if it doesn't exist
 os.makedirs(DEST_DIR, exist_ok=True)

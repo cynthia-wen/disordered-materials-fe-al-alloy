@@ -8,7 +8,7 @@ from ase.optimize import LBFGS
 from fairchem.core import FAIRChemCalculator
 from fairchem.core import pretrained_mlip
 
-final_dir = os.path.join("fitting_js/structures_20/relaxed_08")
+final_dir = os.path.join("main/data/structures_20/relaxed_08")
 os.makedirs(final_dir, exist_ok=True)
 
 SUPERCELL_SIZE = (20, 20, 20)
@@ -28,13 +28,13 @@ for i in range(120, 156):
         continue
 
     print(f"[{i}/300] relaxing mc{index}_structure.cif")
-    atoms = read(f"fitting_js/structures_20/refined_08/unrelaxed_mc_structure_{index}.cif")
+    atoms = read(f"main/data/structures_20/refined_08/unrelaxed_mc_structure_{index}.cif")
 
     atoms_relaxed = atoms.copy()
     atoms_relaxed.calc = calculator
 
     relax_traj_filename = os.path.join(
-        f"fitting_js/structures_20/relaxed_08/trajectories/structure_{index}.traj"
+        f"main/data/structures_20/relaxed_08/trajectories/structure_{index}.traj"
     )
     opt = LBFGS(atoms_relaxed, trajectory=relax_traj_filename)
     opt.run(fmax=0.01)

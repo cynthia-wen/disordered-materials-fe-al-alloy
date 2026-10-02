@@ -3,9 +3,9 @@ import numpy as np
 import h5py
 
 # file paths
-INTENSITY = 'fitting_js/structures_20/relaxed_08/average_diffuse/symm.h5'
-MULTIPLIER = 'reciprocal_space_multiplier.h5'
-OUTPUT = 'fitting_js/structures_20/relaxed_08/average_diffuse/masked_diffuse_intensity.h5'
+INTENSITY = 'main/data/structures_20/relaxed_08/average_diffuse/symm.h5'
+MULTIPLIER = 'main/data/reciprocal_space_multiplier.h5'
+OUTPUT = 'main/data/structures_20/relaxed_08/average_diffuse/masked_diffuse_intensity.h5'
 
 # reading data
 intensity = h5py.File(INTENSITY, 'r')['/data'][:]

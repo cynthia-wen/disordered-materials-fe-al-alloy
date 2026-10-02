@@ -5,10 +5,10 @@ from ase.io import read, write
 # CONFIGURATION
 # =====================================================================
 # Path to your MD or MC trajectory file
-trajectory_path = "fe-al_mc_structures_relaxed/mc-relaxed-output_192/mc_relaxed.traj"
+trajectory_path = "main/data/fe-al_starting/mc/mc-output/mc-relaxed-output_192/mc_relaxed.traj"
 
 # Directory where you want to save the individual CIFs
-output_dir = "fe-al_mc_structures_relaxed/extracted_cifs_192"
+output_dir = "main/data/fe-al_starting/mc/mc-output/extracted_cifs_192"
 
 # =====================================================================
 # EXTRACTION PROCESS

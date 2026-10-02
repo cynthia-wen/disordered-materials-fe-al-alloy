@@ -5,7 +5,7 @@ from fairchem.core import FAIRChemCalculator
 from fairchem.core import pretrained_mlip
 
 # 1. Path to your CIF structure
-cif_path = "fe-al_md_structures_after_mc/arelaxed_frame_192.cif"
+cif_path = "main/data/fe-al_starting/relaxation/final_structures/relaxed_frame_192.cif"
 
 if not os.path.exists(cif_path):
     raise FileNotFoundError(f"Could not find the file: {cif_path}")

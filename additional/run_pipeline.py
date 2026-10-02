@@ -18,14 +18,14 @@ import gemmi
 from ase.io import read
 from gemmi_disorder import Grid, DisorderedStructure, average_diffuse, save_to_yell
 
-NOTEBOOK = "clean_pipeline.ipynb"
+NOTEBOOK = "additional/clean_pipeline.ipynb"
 SUPERCELL_SIZE = (10, 10, 10)  # must match the notebook
 
 # (label, per-run structures glob, aggregated save_to_yell output dir)
 AVERAGE_TARGETS = [
-    ("mc",      "fe-al/mc/final_structures/mc_final_*.cif",              "fe-al/mc/mc_diffuse"),
-    ("relaxed", "fe-al/relaxation/final_structures/relaxed_frame_*.cif", "fe-al/relaxation/relaxed_diffuse"),
-    ("md",        "fe-al/md/final_structures/md_final_*.cif",              "fe-al/md/md_diffuse")
+    ("mc", "additional/fe-al-10/fe-al_mc_structures/final_structures/mc_final_*.cif", "additional/fe-al-10/fe-al_mc_structures/average_diffuse"),
+    ("relaxed", "additional/fe-al-10/fe-al_relaxed_structures/final_structures/relaxed_frame_*.cif", "additional/fe-al-10/fe-al_relaxed_structures/average_diffuse"),
+    ("md", "additional/fe-al-10/fe-al_md_structures/final_structures/md_final_*.cif", "additional/fe-al-10/fe-al_md_structures/average_diffuse"),
 ]
 
 
@@ -33,7 +33,7 @@ def run_index(i):
     print(f"=== running pipeline for index {i:03d} ===", flush=True)
     env = dict(os.environ, MC_INDEX=str(i))
     subprocess.run(
-        ["/home/cynwen/.venv/bin/jupyter", "nbconvert", "--to", "notebook", "--execute", "--stdout",
+        ["jupyter", "nbconvert", "--to", "notebook", "--execute", "--stdout",
          "--ExecutePreprocessor.timeout=-1", NOTEBOOK],
         env=env, check=True, stdout=subprocess.DEVNULL)
 

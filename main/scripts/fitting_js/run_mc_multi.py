@@ -31,7 +31,7 @@ atoms_base = bulk("Fe", "bcc", a=a_lattice, cubic=True).repeat(SUPERCELL_SIZE)
 num_atoms = len(atoms_base)
 grid_n = 2 * round(atoms_base.cell.lengths()[0] / a_lattice)   # doubled-coordinate grid
 
-shell_keys, shell_r = shells_from_model('fitting_js/model.txt', NUM_SHELLS)
+shell_keys, shell_r = shells_from_model('main/scripts/fitting_js/model.txt', NUM_SHELLS)
 
 # get doubled-integer site of every atom, and the reverse map (coord -> atom index)
 site_coords = np.round(atoms_base.get_scaled_positions() * grid_n).astype(int) % grid_n
@@ -49,7 +49,7 @@ J_PER_COLUMN  = np.concatenate([np.full(shell_lookups[n].shape[1], J_SPIN[n]) fo
 
 # main loop
 for temp in T:
-    OUTPUT_DIR = f"fitting_js/structures_20/refined_10"
+    OUTPUT_DIR = "main/data/structures_20/refined_10"
     os.makedirs(OUTPUT_DIR, exist_ok=True)
     
     print(f"Starting Monte Carlo simulations at T={temp:.3f}")
