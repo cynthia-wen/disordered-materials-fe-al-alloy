@@ -84,7 +84,7 @@ The notebooks use paths relative to this root, for example `main/data/...`. VS C
 ### Execution order
 1. `main/yell_refinement/` — refine substitutional correlations against the experimental data (Yell, run externally)
 2. `additional/fit_js_multi.ipynb` — least-squares seed for the interaction parameters, using energies from `get_energy_from_structure.py`
-3. `main/scripts/fitting_js/histogram_reweighting.ipynb` — iterate the J refinement, calling `run_mc_multi.py` at each step; results land in `data/structures_20/refined_NN/`
+3. `main/scripts/fitting_js/histogram_reweighting.ipynb` — iterate the J refinement, calling `run_mc_multi.py` at each step; results land in `main/data/structures_20/refined_NN/`
 4. `main/scripts/relax_multiple.py` — relax the final ensemble with UMA
 5. `main/scripts/calc_average_from_cifs.py` — ensemble-averaged diffuse scattering maps
 6. `main/scripts/figures.ipynb` — reproduce the report and poster figures
