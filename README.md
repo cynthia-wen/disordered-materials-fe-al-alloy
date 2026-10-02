@@ -32,6 +32,7 @@ All code was run on an NVIDIA RTX A6000 GPU and leverages a Python-based ecosyst
 
 ## Repository Structure
 
+```text
 disordered-materials-fe-al-alloy/
 ├── main/ # production workflow (20×20×20, 16,000 atoms)
 │ ├── yell_refinement/ # Yell model + refined substitutional correlations
@@ -66,6 +67,8 @@ disordered-materials-fe-al-alloy/
 ├── fe-al_mc_structures/ # Monte Carlo only
 ├── fe-al_relaxed_structures/ # + UMA relaxation
 └── fe-al_md_structures/ # + molecular dynamics
+...
+```
 
 ## Running the notebooks
 
@@ -79,7 +82,7 @@ jupyter lab
 
 The notebooks use paths relative to this root, for example `main/data/...`. VS Code uses the same root automatically through the workspace settings.
 
-# Execution order
+### Execution order
 1. `main/yell_refinement/` — refine substitutional correlations against the experimental data (Yell, run externally)
 2. `additional/fit_js_multi.ipynb` — least-squares seed for the interaction parameters, using energies from `get_energy_from_structure.py`
 3. `main/scripts/fitting_js/histogram_reweighting.ipynb` — iterate the J refinement, calling `run_mc_multi.py` at each step; results land in `data/structures_20/refined_NN/`
