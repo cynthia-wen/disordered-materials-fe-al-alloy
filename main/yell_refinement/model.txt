@@ -1,0 +1,2372 @@
+# Fe-Al input file for Yell
+
+Cell 2.867 2.867 2.867  90 90 90
+LaueSymmetry m-3m
+DiffuseScatteringGrid -5 -5 -5 0.05 0.05 0.05 200 200 200
+
+CalculationMethod approximate
+Refine true
+RecalculateAverage true
+FFTGridSize 64 64 64
+Derivatives analytical
+MaxProcessors 8
+MaxNumberOfIterations 10
+CeresThreads 1
+SymmetrizeExperiment true
+#CheckExperimentSymmetry false - if you want to run it otherwise, but it will not give a good R-factor.
+
+Scale 1875.03457(2)
+adp=0.005467;
+dp=0.8;
+
+adp1_xx=0;
+adp1_xy=0;
+se1_x=0;
+
+
+adp2_xx=0;
+adp2_yy=0;
+se2_x=0;
+
+
+adp3_xx=0;
+adp3_zz=0;
+se3_x=0;
+
+
+adp4_xx=0;
+adp4_yy=0;
+se4_x=0;
+se4_y=0;
+
+
+adp5_xx=0;
+se5_x=-0;
+
+
+adp6_xx=0;
+adp6_yy=0;
+se6_x=0;
+
+RefinableVariables [
+sub_1_AlAl=0;
+sub_2_AlAl=0;
+sub_3_AlAl=0;
+sub_4_AlAl=0;
+sub_5_AlAl=0;
+sub_6_AlAl=0;
+sub_7_AlAl=0;
+sub_8_AlAl=0;
+sub_9_AlAl=0;
+sub_10_AlAl=0;
+sub_11_AlAl=0;
+sub_12_AlAl=0;
+sub_13_AlAl=0;
+sub_14_AlAl=0;
+sub_15_AlAl=0;
+sub_16_AlAl=0;
+sub_17_AlAl=0;
+sub_18_AlAl=0;
+sub_19_AlAl=0;
+sub_20_AlAl=0;
+sub_21_AlAl=0;
+sub_22_AlAl=0;
+sub_23_AlAl=0;
+sub_24_AlAl=0;
+sub_25_AlAl=0;
+sub_26_AlAl=0;
+sub_27_AlAl=0;
+sub_28_AlAl=0;
+sub_29_AlAl=0;
+sub_30_AlAl=0;
+sub_31_AlAl=0;
+sub_32_AlAl=0;
+sub_33_AlAl=0;
+sub_34_AlAl=0;
+sub_35_AlAl=0;
+sub_36_AlAl=0;
+sub_37_AlAl=0;
+sub_38_AlAl=0;
+sub_39_AlAl=0;
+sub_40_AlAl=0;
+sub_41_AlAl=0;
+sub_42_AlAl=0;
+sub_43_AlAl=0;
+sub_44_AlAl=0;
+sub_45_AlAl=0;
+sub_46_AlAl=0;
+sub_47_AlAl=0;
+sub_48_AlAl=0;
+sub_49_AlAl=0;
+sub_50_AlAl=0;
+sub_51_AlAl=0;
+sub_52_AlAl=0;
+sub_53_AlAl=0;
+sub_54_AlAl=0;
+sub_55_AlAl=0;
+sub_56_AlAl=0;
+sub_57_AlAl=0;
+sub_58_AlAl=0;
+sub_59_AlAl=0;
+sub_60_AlAl=0;
+sub_61_AlAl=0;
+sub_62_AlAl=0;
+sub_63_AlAl=0;
+sub_64_AlAl=0;
+sub_65_AlAl=0;
+sub_66_AlAl=0;
+sub_67_AlAl=0;
+sub_68_AlAl=0;
+sub_69_AlAl=0;
+sub_70_AlAl=0;
+sub_71_AlAl=0;
+sub_72_AlAl=0;
+sub_73_AlAl=0;
+sub_74_AlAl=0;
+sub_75_AlAl=0;
+sub_76_AlAl=0;
+sub_77_AlAl=0;
+sub_78_AlAl=0;
+sub_79_AlAl=0;
+sub_80_AlAl=0;
+sub_81_AlAl=0;
+sub_82_AlAl=0;
+sub_83_AlAl=0;
+sub_84_AlAl=0;
+sub_85_AlAl=0;
+sub_86_AlAl=0;
+sub_87_AlAl=0;
+sub_88_AlAl=0;
+sub_89_AlAl=0;
+sub_90_AlAl=0;
+sub_91_AlAl=0;
+sub_92_AlAl=0;
+sub_93_AlAl=0;
+sub_94_AlAl=0;
+sub_95_AlAl=0;
+sub_96_AlAl=0;
+sub_97_AlAl=0;
+sub_98_AlAl=0;
+sub_99_AlAl=0;
+sub_100_AlAl=0;
+sub_101_AlAl=0;
+sub_102_AlAl=0;
+sub_103_AlAl=0;
+sub_104_AlAl=0;
+sub_105_AlAl=0;
+sub_106_AlAl=0;
+sub_107_AlAl=0;
+sub_108_AlAl=0;
+sub_109_AlAl=0;
+sub_110_AlAl=0;
+sub_111_AlAl=0;
+sub_112_AlAl=0;
+sub_113_AlAl=0;
+sub_114_AlAl=0;
+sub_115_AlAl=0;
+sub_116_AlAl=0;
+sub_117_AlAl=0;
+sub_118_AlAl=0;
+sub_119_AlAl=0;
+sub_120_AlAl=0;
+sub_121_AlAl=0;
+sub_122_AlAl=0;
+sub_123_AlAl=0;
+sub_124_AlAl=0;
+sub_125_AlAl=0;
+sub_126_AlAl=0;
+sub_127_AlAl=0;
+sub_128_AlAl=0;
+sub_129_AlAl=0;
+sub_130_AlAl=0;
+sub_131_AlAl=0;
+sub_132_AlAl=0;
+sub_133_AlAl=0;
+sub_134_AlAl=0;
+sub_135_AlAl=0;
+sub_136_AlAl=0;
+sub_137_AlAl=0;
+sub_138_AlAl=0;
+sub_139_AlAl=0;
+sub_140_AlAl=0;
+sub_141_AlAl=0;
+sub_142_AlAl=0;
+sub_143_AlAl=0;
+sub_144_AlAl=0;
+sub_145_AlAl=0;
+sub_146_AlAl=0;
+sub_147_AlAl=0;
+sub_148_AlAl=0;
+sub_149_AlAl=0;
+sub_150_AlAl=0;
+sub_151_AlAl=0;
+sub_152_AlAl=0;
+sub_153_AlAl=0;
+sub_154_AlAl=0;
+sub_155_AlAl=0;
+sub_156_AlAl=0;
+sub_157_AlAl=0;
+sub_158_AlAl=0;
+sub_159_AlAl=0;
+sub_160_AlAl=0;
+sub_161_AlAl=0;
+sub_162_AlAl=0;
+sub_163_AlAl=0;
+sub_164_AlAl=0;
+sub_165_AlAl=0;
+sub_166_AlAl=0;
+sub_167_AlAl=0;
+sub_168_AlAl=0;
+sub_169_AlAl=0;
+sub_170_AlAl=0;
+sub_171_AlAl=0;
+sub_172_AlAl=0;
+sub_173_AlAl=0;
+sub_174_AlAl=0;
+sub_175_AlAl=0;
+sub_176_AlAl=0;
+sub_177_AlAl=0;
+sub_178_AlAl=0;
+sub_179_AlAl=0;
+sub_180_AlAl=0;
+sub_181_AlAl=0;
+sub_182_AlAl=0;
+sub_183_AlAl=0;
+sub_184_AlAl=0;
+sub_185_AlAl=0;
+sub_186_AlAl=0;
+sub_187_AlAl=0;
+sub_188_AlAl=0;
+sub_189_AlAl=0;
+sub_190_AlAl=0;
+sub_191_AlAl=0;
+sub_192_AlAl=0;
+sub_193_AlAl=0;
+sub_194_AlAl=0;
+sub_195_AlAl=0;
+sub_196_AlAl=0;
+sub_197_AlAl=0;
+sub_198_AlAl=0;
+sub_199_AlAl=0;
+sub_200_AlAl=0;
+sub_201_AlAl=0;
+sub_202_AlAl=0;
+sub_203_AlAl=0;
+sub_204_AlAl=0;
+sub_205_AlAl=0;
+sub_206_AlAl=0;
+sub_207_AlAl=0;
+sub_208_AlAl=0;
+sub_209_AlAl=0;
+sub_210_AlAl=0;
+sub_211_AlAl=0;
+sub_212_AlAl=0;
+sub_213_AlAl=0;
+sub_214_AlAl=0;
+sub_215_AlAl=0;
+sub_216_AlAl=0;
+sub_217_AlAl=0;
+sub_218_AlAl=0;
+sub_219_AlAl=0;
+sub_220_AlAl=0;
+sub_221_AlAl=0;
+sub_222_AlAl=0;
+sub_223_AlAl=0;
+sub_224_AlAl=0;
+sub_225_AlAl=0;
+sub_226_AlAl=0;
+sub_227_AlAl=0;
+sub_228_AlAl=0;
+sub_229_AlAl=0;
+sub_230_AlAl=0;
+sub_231_AlAl=0;
+sub_232_AlAl=0;
+sub_233_AlAl=0;
+sub_234_AlAl=0;
+sub_235_AlAl=0;
+sub_236_AlAl=0;
+sub_237_AlAl=0;
+sub_238_AlAl=0;
+sub_239_AlAl=0;
+sub_240_AlAl=0;
+sub_241_AlAl=0;
+sub_242_AlAl=0;
+sub_243_AlAl=0;
+sub_244_AlAl=0;
+sub_245_AlAl=0;
+sub_246_AlAl=0;
+sub_247_AlAl=0;
+sub_248_AlAl=0;
+sub_249_AlAl=0;
+sub_250_AlAl=0;
+sub_251_AlAl=0;
+sub_252_AlAl=0;
+sub_253_AlAl=0;
+sub_254_AlAl=0;
+sub_255_AlAl=0;
+sub_256_AlAl=0;
+sub_257_AlAl=0;
+sub_258_AlAl=0;
+sub_259_AlAl=0;
+sub_260_AlAl=0;
+sub_261_AlAl=0;
+sub_262_AlAl=0;
+sub_263_AlAl=0;
+sub_264_AlAl=0;
+sub_265_AlAl=0;
+sub_266_AlAl=0;
+sub_267_AlAl=0;
+sub_268_AlAl=0;
+sub_269_AlAl=0;
+sub_270_AlAl=0;
+sub_271_AlAl=0;
+sub_272_AlAl=0;
+sub_273_AlAl=0;
+sub_274_AlAl=0;
+sub_275_AlAl=0;
+sub_276_AlAl=0;
+sub_277_AlAl=0;
+sub_278_AlAl=0;
+sub_279_AlAl=0;
+sub_280_AlAl=0;
+sub_281_AlAl=0;
+sub_282_AlAl=0;
+sub_283_AlAl=0;
+sub_284_AlAl=0;
+sub_285_AlAl=0;
+sub_286_AlAl=0;
+sub_287_AlAl=0;
+sub_288_AlAl=0;
+sub_289_AlAl=0;
+sub_290_AlAl=0;
+sub_291_AlAl=0;
+sub_292_AlAl=0;
+sub_293_AlAl=0;
+sub_294_AlAl=0;
+sub_295_AlAl=0;
+sub_296_AlAl=0;
+sub_297_AlAl=0;
+sub_298_AlAl=0;
+sub_299_AlAl=0;
+sub_300_AlAl=0;
+sub_301_AlAl=0;
+sub_302_AlAl=0;
+sub_303_AlAl=0;
+sub_304_AlAl=0;
+sub_305_AlAl=0;
+sub_306_AlAl=0;
+sub_307_AlAl=0;
+sub_308_AlAl=0;
+sub_309_AlAl=0;
+sub_310_AlAl=0;
+sub_311_AlAl=0;
+sub_312_AlAl=0;
+sub_313_AlAl=0;
+sub_314_AlAl=0;
+sub_315_AlAl=0;
+sub_316_AlAl=0;
+sub_317_AlAl=0;
+sub_318_AlAl=0;
+sub_319_AlAl=0;
+sub_320_AlAl=0;
+sub_321_AlAl=0;
+sub_322_AlAl=0;
+sub_323_AlAl=0;
+sub_324_AlAl=0;
+sub_325_AlAl=0;
+sub_326_AlAl=0;
+sub_327_AlAl=0;
+sub_328_AlAl=0;
+sub_329_AlAl=0;
+sub_330_AlAl=0;
+sub_331_AlAl=0;
+sub_332_AlAl=0;
+sub_333_AlAl=0;
+sub_334_AlAl=0;
+sub_335_AlAl=0;
+sub_336_AlAl=0;
+sub_337_AlAl=0;
+sub_338_AlAl=0;
+sub_339_AlAl=0;
+sub_340_AlAl=0;
+sub_341_AlAl=0;
+sub_342_AlAl=0;
+sub_343_AlAl=0;
+sub_344_AlAl=0;
+sub_345_AlAl=0;
+sub_346_AlAl=0;
+sub_347_AlAl=0;
+sub_348_AlAl=0;
+sub_349_AlAl=0;
+sub_350_AlAl=0;
+sub_351_AlAl=0;
+sub_352_AlAl=0;
+sub_353_AlAl=0;
+sub_354_AlAl=0;
+sub_355_AlAl=0;
+sub_356_AlAl=0;
+sub_357_AlAl=0;
+sub_358_AlAl=0;
+sub_359_AlAl=0;
+sub_360_AlAl=0;
+sub_361_AlAl=0;
+sub_362_AlAl=0;
+sub_363_AlAl=0;
+sub_364_AlAl=0;
+sub_365_AlAl=0;
+]
+
+
+UnitCell
+[
+  FeAl = Variant[
+    (p=0.8)
+    Fe = Fe 1  0 0 0  adp
+
+    (p=0.2)
+    Al = Al 1  0 0 0  adp
+  ]
+]
+
+Modes[
+Fe_x = TranslationalMode(Fe,x)
+Fe_y = TranslationalMode(Fe,y)
+Fe_z = TranslationalMode(Fe,z)
+Al_x = TranslationalMode(Al,x)
+Al_y = TranslationalMode(Al,y)
+Al_z = TranslationalMode(Al,z)
+]
+
+Correlations
+[
+  [(0,0,0)
+   Multiplicity 1
+
+   SubstitutionalCorrelation(FeAl,FeAl,dp)
+   
+   ADPCorrelation(Fe_x,Fe_x,adp)
+   ADPCorrelation(Fe_y,Fe_y,adp)
+   ADPCorrelation(Fe_z,Fe_z,adp)
+
+   ADPCorrelation(Al_x,Al_x,adp)
+   ADPCorrelation(Al_y,Al_y,adp)
+   ADPCorrelation(Al_z,Al_z,adp)
+  ]
+
+  [(1/2,1/2,1/2)
+   Multiplicity 8
+
+   SubstitutionalCorrelation(FeAl,FeAl,0.64+sub_1_AlAl)
+   
+   ADPCorrelation(Fe_x,Fe_x,adp1_xx)
+   ADPCorrelation(Fe_y,Fe_y,adp1_xx)
+   ADPCorrelation(Fe_z,Fe_z,adp1_xx)
+
+   ADPCorrelation(Al_x,Al_x,adp1_xx)
+   ADPCorrelation(Al_y,Al_y,adp1_xx)
+   ADPCorrelation(Al_z,Al_z,adp1_xx)
+
+   ADPCorrelation(Fe_x,Al_x,adp1_xx)
+   ADPCorrelation(Fe_y,Al_y,adp1_xx)
+   ADPCorrelation(Fe_z,Al_z,adp1_xx)
+
+   ADPCorrelation(Al_x,Fe_x,adp1_xx)
+   ADPCorrelation(Al_y,Fe_y,adp1_xx)
+   ADPCorrelation(Al_z,Fe_z,adp1_xx)
+
+   ADPCorrelation(Fe_x,Fe_y,adp1_xy)
+   ADPCorrelation(Fe_x,Fe_z,adp1_xy)
+   ADPCorrelation(Fe_y,Fe_z,adp1_xy)
+   ADPCorrelation(Fe_y,Fe_x,adp1_xy)
+   ADPCorrelation(Fe_z,Fe_y,adp1_xy)
+   ADPCorrelation(Fe_z,Fe_x,adp1_xy)
+   
+ADPCorrelation(Al_x, Al_y, adp1_xy)
+ADPCorrelation(Al_x, Al_z, adp1_xy)
+ADPCorrelation(Al_y, Al_z, adp1_xy)
+ADPCorrelation(Al_y, Al_x, adp1_xy)
+ADPCorrelation(Al_z, Al_x, adp1_xy)
+ADPCorrelation(Al_z, Al_y, adp1_xy)
+
+ADPCorrelation(Fe_x, Al_y, adp1_xy)
+ADPCorrelation(Fe_x, Al_z, adp1_xy)
+ADPCorrelation(Fe_y, Al_z, adp1_xy)
+ADPCorrelation(Fe_y, Al_x, adp1_xy)
+ADPCorrelation(Fe_z, Al_x, adp1_xy)
+ADPCorrelation(Fe_z, Al_y, adp1_xy)
+
+ADPCorrelation(Al_x, Fe_y, adp1_xy)
+ADPCorrelation(Al_x, Fe_z, adp1_xy)
+ADPCorrelation(Al_y, Fe_z, adp1_xy)
+ADPCorrelation(Al_y, Fe_x, adp1_xy)
+ADPCorrelation(Al_z, Fe_x, adp1_xy)
+ADPCorrelation(Al_z, Fe_y, adp1_xy)
+
+   SizeEffect(Fe, Fe_x, se1_x)
+   SizeEffect(Fe, Fe_y, se1_x)
+   SizeEffect(Fe, Fe_z, se1_x)
+  ]
+
+  [(1,0,0)
+   Multiplicity 6
+
+   SubstitutionalCorrelation(FeAl,FeAl,0.64+sub_2_AlAl)
+   
+   ADPCorrelation(Fe_x,Fe_x,adp2_xx)
+   ADPCorrelation(Fe_y,Fe_y,adp2_yy)
+   ADPCorrelation(Fe_z,Fe_z,adp2_yy)
+
+   SizeEffect(Fe, Fe_x, se2_x)
+  ]
+
+  [(1,1,0)
+   Multiplicity 12
+
+   SubstitutionalCorrelation(FeAl,FeAl,0.64+sub_3_AlAl)
+   
+   ADPCorrelation(Fe_x,Fe_x,adp3_xx)
+   ADPCorrelation(Fe_y,Fe_y,adp3_xx)
+   ADPCorrelation(Fe_z,Fe_z,adp3_zz)
+
+   SizeEffect(Fe, Fe_x, se3_x)
+   SizeEffect(Fe, Fe_y, se3_x)
+  ]
+
+  [(3/2,1/2,1/2)
+   Multiplicity 24
+
+   SubstitutionalCorrelation(FeAl,FeAl,0.64+sub_4_AlAl)
+   
+   ADPCorrelation(Fe_x,Fe_x,adp4_xx)
+   ADPCorrelation(Fe_y,Fe_y,adp4_yy)
+   ADPCorrelation(Fe_z,Fe_z,adp4_yy)
+
+   SizeEffect(Fe, Fe_x, se4_x)
+   SizeEffect(Fe, Fe_y, se4_y)
+   SizeEffect(Fe, Fe_z, se4_y)
+  ]
+
+  [(1, 1, 1)
+   Multiplicity 8
+
+   SubstitutionalCorrelation(FeAl,FeAl,0.64+sub_5_AlAl)
+   
+   ADPCorrelation(Fe_x,Fe_x,adp5_xx)
+   ADPCorrelation(Fe_y,Fe_y,adp5_xx)
+   ADPCorrelation(Fe_z,Fe_z,adp5_xx)
+
+   SizeEffect(Fe, Fe_x, se5_x)
+   SizeEffect(Fe, Fe_y, se5_x)
+   SizeEffect(Fe, Fe_z, se5_x)
+
+  ]
+
+  [(2,0,0)
+   Multiplicity 6
+
+   SubstitutionalCorrelation(FeAl,FeAl,0.64+sub_6_AlAl)
+   
+   ADPCorrelation(Fe_x,Fe_x,adp6_xx)
+   ADPCorrelation(Fe_y,Fe_y,adp6_yy)
+   ADPCorrelation(Fe_z,Fe_z,adp6_yy)
+
+   SizeEffect(Fe, Fe_x, se6_x)
+  ]
+
+[(3/2,3/2,-1/2)  # FeAl -> FeAl at 3/2,3/2,-1/2   shell 7 (len 6.25502)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_7_AlAl)
+]
+
+[(2,1,0)  # FeAl -> FeAl at 2,1,0   shell 8 (len 6.41752)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_8_AlAl)
+]
+
+[(2,1,-1)  # FeAl -> FeAl at 2,1,-1   shell 9 (len 7.03004)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_9_AlAl)
+]
+
+[(5/2,1/2,-1/2)  # FeAl -> FeAl at 5/2,1/2,-1/2   shell 10 (len 7.45648)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_10_AlAl)
+]
+
+[(3/2,3/2,-3/2)  # FeAl -> FeAl at 3/2,3/2,-3/2   shell 10 (len 7.45648)
+  Multiplicity 8
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_11_AlAl)
+]
+
+[(2,2,0)  # FeAl -> FeAl at 2,2,0   shell 11 (len 8.11759)
+  Multiplicity 12
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_12_AlAl)
+]
+
+[(5/2,3/2,-1/2)  # FeAl -> FeAl at 5/2,3/2,-1/2   shell 12 (len 8.48957)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_13_AlAl)
+]
+
+[(3,0,0)  # FeAl -> FeAl at 3,0,0   shell 13 (len 8.61)
+  Multiplicity 6
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_14_AlAl)
+]
+
+[(2,2,-1)  # FeAl -> FeAl at 2,2,-1   shell 13 (len 8.61)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_15_AlAl)
+]
+
+[(3,1,0)  # FeAl -> FeAl at 3,1,0   shell 14 (len 9.07574)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_16_AlAl)
+]
+
+[(5/2,3/2,-3/2)  # FeAl -> FeAl at 5/2,3/2,-3/2   shell 15 (len 9.40992)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_17_AlAl)
+]
+
+[(3,1,-1)  # FeAl -> FeAl at 3,1,-1   shell 16 (len 9.51871)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_18_AlAl)
+]
+
+[(2,2,-2)  # FeAl -> FeAl at 2,2,-2   shell 17 (len 9.94197)
+  Multiplicity 8
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_19_AlAl)
+]
+
+[(7/2,1/2,-1/2)  # FeAl -> FeAl at 7/2,1/2,-1/2   shell 18 (len 10.2479)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_20_AlAl)
+]
+
+[(5/2,5/2,-1/2)  # FeAl -> FeAl at 5/2,5/2,-1/2   shell 18 (len 10.2479)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_21_AlAl)
+]
+
+[(3,2,0)  # FeAl -> FeAl at 3,2,0   shell 19 (len 10.3479)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_22_AlAl)
+]
+
+[(3,2,-1)  # FeAl -> FeAl at 3,2,-1   shell 20 (len 10.7386)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_23_AlAl)
+]
+
+[(5/2,5/2,-3/2)  # FeAl -> FeAl at 5/2,5/2,-3/2   shell 21 (len 11.0224)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_24_AlAl)
+]
+
+[(7/2,3/2,-1/2)  # FeAl -> FeAl at 7/2,3/2,-1/2   shell 21 (len 11.0224)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_25_AlAl)
+]
+
+[(4,0,0)  # FeAl -> FeAl at 4,0,0   shell 22 (len 11.48)
+  Multiplicity 6
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_26_AlAl)
+]
+
+[(7/2,3/2,-3/2)  # FeAl -> FeAl at 7/2,3/2,-3/2   shell 23 (len 11.746)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_27_AlAl)
+]
+
+[(4,1,0)  # FeAl -> FeAl at 4,1,0   shell 24 (len 11.8333)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_28_AlAl)
+]
+
+[(3,2,-2)  # FeAl -> FeAl at 3,2,-2   shell 24 (len 11.8333)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_29_AlAl)
+]
+
+[(4,1,-1)  # FeAl -> FeAl at 4,1,-1   shell 25 (len 12.1764)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_30_AlAl)
+]
+
+[(3,3,0)  # FeAl -> FeAl at 3,3,0   shell 25 (len 12.1764)
+  Multiplicity 12
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_31_AlAl)
+]
+
+[(7/2,5/2,-1/2)  # FeAl -> FeAl at 7/2,5/2,-1/2   shell 26 (len 12.4275)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_32_AlAl)
+]
+
+[(5/2,5/2,-5/2)  # FeAl -> FeAl at 5/2,5/2,-5/2   shell 26 (len 12.4275)
+  Multiplicity 8
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_33_AlAl)
+]
+
+[(3,3,-1)  # FeAl -> FeAl at 3,3,-1   shell 27 (len 12.51)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_34_AlAl)
+]
+
+[(4,2,0)  # FeAl -> FeAl at 4,2,0   shell 28 (len 12.835)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_35_AlAl)
+]
+
+[(9/2,1/2,-1/2)  # FeAl -> FeAl at 9/2,1/2,-1/2   shell 29 (len 13.0735)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_36_AlAl)
+]
+
+[(7/2,5/2,-3/2)  # FeAl -> FeAl at 7/2,5/2,-3/2   shell 29 (len 13.0735)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_37_AlAl)
+]
+
+[(4,2,-1)  # FeAl -> FeAl at 4,2,-1   shell 30 (len 13.152)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_38_AlAl)
+]
+
+[(3,3,-2)  # FeAl -> FeAl at 3,3,-2   shell 31 (len 13.4615)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_39_AlAl)
+]
+
+[(9/2,3/2,-1/2)  # FeAl -> FeAl at 9/2,3/2,-1/2   shell 32 (len 13.689)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_40_AlAl)
+]
+
+[(4,2,-2)  # FeAl -> FeAl at 4,2,-2   shell 33 (len 14.0601)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_41_AlAl)
+]
+
+[(7/2,7/2,-1/2)  # FeAl -> FeAl at 7/2,7/2,-1/2   shell 34 (len 14.2781)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_42_AlAl)
+]
+
+[(7/2,5/2,-5/2)  # FeAl -> FeAl at 7/2,5/2,-5/2   shell 34 (len 14.2781)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_43_AlAl)
+]
+
+[(9/2,3/2,-3/2)  # FeAl -> FeAl at 9/2,3/2,-3/2   shell 34 (len 14.2781)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_44_AlAl)
+]
+
+[(5,0,0)  # FeAl -> FeAl at 5,0,0   shell 35 (len 14.35)
+  Multiplicity 6
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_45_AlAl)
+]
+
+[(4,3,0)  # FeAl -> FeAl at 4,3,0   shell 35 (len 14.35)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_46_AlAl)
+]
+
+[(5,1,0)  # FeAl -> FeAl at 5,1,0   shell 36 (len 14.6342)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_47_AlAl)
+]
+
+[(4,3,-1)  # FeAl -> FeAl at 4,3,-1   shell 36 (len 14.6342)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_48_AlAl)
+]
+
+[(9/2,5/2,-1/2)  # FeAl -> FeAl at 9/2,5/2,-1/2   shell 37 (len 14.8438)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_49_AlAl)
+]
+
+[(7/2,7/2,-3/2)  # FeAl -> FeAl at 7/2,7/2,-3/2   shell 37 (len 14.8438)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_50_AlAl)
+]
+
+[(5,1,-1)  # FeAl -> FeAl at 5,1,-1   shell 38 (len 14.913)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_51_AlAl)
+]
+
+[(3,3,-3)  # FeAl -> FeAl at 3,3,-3   shell 38 (len 14.913)
+  Multiplicity 8
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_52_AlAl)
+]
+
+[(9/2,5/2,-3/2)  # FeAl -> FeAl at 9/2,5/2,-3/2   shell 39 (len 15.3887)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_53_AlAl)
+]
+
+[(5,2,0)  # FeAl -> FeAl at 5,2,0   shell 40 (len 15.4554)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_54_AlAl)
+]
+
+[(4,3,-2)  # FeAl -> FeAl at 4,3,-2   shell 40 (len 15.4554)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_55_AlAl)
+]
+
+[(5,2,-1)  # FeAl -> FeAl at 5,2,-1   shell 41 (len 15.7196)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_56_AlAl)
+]
+
+[(7/2,7/2,-5/2)  # FeAl -> FeAl at 7/2,7/2,-5/2   shell 42 (len 15.9149)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_57_AlAl)
+]
+
+[(11/2,1/2,-1/2)  # FeAl -> FeAl at 11/2,1/2,-1/2   shell 42 (len 15.9149)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_58_AlAl)
+]
+
+[(4,4,0)  # FeAl -> FeAl at 4,4,0   shell 43 (len 16.2352)
+  Multiplicity 12
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_59_AlAl)
+]
+
+[(11/2,3/2,-1/2)  # FeAl -> FeAl at 11/2,3/2,-1/2   shell 44 (len 16.4243)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_60_AlAl)
+]
+
+[(9/2,5/2,-5/2)  # FeAl -> FeAl at 9/2,5/2,-5/2   shell 44 (len 16.4243)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_61_AlAl)
+]
+
+[(9/2,7/2,-1/2)  # FeAl -> FeAl at 9/2,7/2,-1/2   shell 44 (len 16.4243)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_62_AlAl)
+]
+
+[(4,4,-1)  # FeAl -> FeAl at 4,4,-1   shell 45 (len 16.4869)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_63_AlAl)
+]
+
+[(5,2,-2)  # FeAl -> FeAl at 5,2,-2   shell 45 (len 16.4869)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_64_AlAl)
+]
+
+[(4,3,-3)  # FeAl -> FeAl at 4,3,-3   shell 46 (len 16.7348)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_65_AlAl)
+]
+
+[(5,3,0)  # FeAl -> FeAl at 5,3,0   shell 46 (len 16.7348)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_66_AlAl)
+]
+
+[(11/2,3/2,-3/2)  # FeAl -> FeAl at 11/2,3/2,-3/2   shell 47 (len 16.9184)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_67_AlAl)
+]
+
+[(9/2,7/2,-3/2)  # FeAl -> FeAl at 9/2,7/2,-3/2   shell 47 (len 16.9184)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_68_AlAl)
+]
+
+[(5,3,-1)  # FeAl -> FeAl at 5,3,-1   shell 48 (len 16.9791)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_69_AlAl)
+]
+
+[(6,0,0)  # FeAl -> FeAl at 6,0,0   shell 49 (len 17.22)
+  Multiplicity 6
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_70_AlAl)
+]
+
+[(4,4,-2)  # FeAl -> FeAl at 4,4,-2   shell 49 (len 17.22)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_71_AlAl)
+]
+
+[(11/2,5/2,-1/2)  # FeAl -> FeAl at 11/2,5/2,-1/2   shell 50 (len 17.3985)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_72_AlAl)
+]
+
+[(7/2,7/2,-7/2)  # FeAl -> FeAl at 7/2,7/2,-7/2   shell 50 (len 17.3985)
+  Multiplicity 8
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_73_AlAl)
+]
+
+[(6,1,0)  # FeAl -> FeAl at 6,1,0   shell 51 (len 17.4575)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_74_AlAl)
+]
+
+[(6,1,-1)  # FeAl -> FeAl at 6,1,-1   shell 52 (len 17.6919)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_75_AlAl)
+]
+
+[(5,3,-2)  # FeAl -> FeAl at 5,3,-2   shell 52 (len 17.6919)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_76_AlAl)
+]
+
+[(11/2,5/2,-3/2)  # FeAl -> FeAl at 11/2,5/2,-3/2   shell 53 (len 17.8656)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_77_AlAl)
+]
+
+[(9/2,7/2,-5/2)  # FeAl -> FeAl at 9/2,7/2,-5/2   shell 53 (len 17.8656)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_78_AlAl)
+]
+
+[(6,2,0)  # FeAl -> FeAl at 6,2,0   shell 54 (len 18.1515)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_79_AlAl)
+]
+
+[(9/2,9/2,-1/2)  # FeAl -> FeAl at 9/2,9/2,-1/2   shell 55 (len 18.3209)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_80_AlAl)
+]
+
+[(5,4,0)  # FeAl -> FeAl at 5,4,0   shell 56 (len 18.377)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_81_AlAl)
+]
+
+[(6,2,-1)  # FeAl -> FeAl at 6,2,-1   shell 56 (len 18.377)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_82_AlAl)
+]
+
+[(4,4,-3)  # FeAl -> FeAl at 4,4,-3   shell 56 (len 18.377)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_83_AlAl)
+]
+
+[(5,4,-1)  # FeAl -> FeAl at 5,4,-1   shell 57 (len 18.5997)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_84_AlAl)
+]
+
+[(13/2,1/2,-1/2)  # FeAl -> FeAl at 13/2,1/2,-1/2   shell 58 (len 18.7651)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_85_AlAl)
+]
+
+[(11/2,7/2,-1/2)  # FeAl -> FeAl at 11/2,7/2,-1/2   shell 58 (len 18.7651)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_86_AlAl)
+]
+
+[(9/2,9/2,-3/2)  # FeAl -> FeAl at 9/2,9/2,-3/2   shell 58 (len 18.7651)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_87_AlAl)
+]
+
+[(11/2,5/2,-5/2)  # FeAl -> FeAl at 11/2,5/2,-5/2   shell 58 (len 18.7651)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_88_AlAl)
+]
+
+[(5,3,-3)  # FeAl -> FeAl at 5,3,-3   shell 59 (len 18.8198)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_89_AlAl)
+]
+
+[(6,2,-2)  # FeAl -> FeAl at 6,2,-2   shell 60 (len 19.0374)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_90_AlAl)
+]
+
+[(13/2,3/2,-1/2)  # FeAl -> FeAl at 13/2,3/2,-1/2   shell 61 (len 19.199)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_91_AlAl)
+]
+
+[(11/2,7/2,-3/2)  # FeAl -> FeAl at 11/2,7/2,-3/2   shell 61 (len 19.199)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_92_AlAl)
+]
+
+[(9/2,7/2,-7/2)  # FeAl -> FeAl at 9/2,7/2,-7/2   shell 61 (len 19.199)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_93_AlAl)
+]
+
+[(6,3,0)  # FeAl -> FeAl at 6,3,0   shell 62 (len 19.2525)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_94_AlAl)
+]
+
+[(5,4,-2)  # FeAl -> FeAl at 5,4,-2   shell 62 (len 19.2525)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_95_AlAl)
+]
+
+[(6,3,-1)  # FeAl -> FeAl at 6,3,-1   shell 63 (len 19.4653)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_96_AlAl)
+]
+
+[(13/2,3/2,-3/2)  # FeAl -> FeAl at 13/2,3/2,-3/2   shell 64 (len 19.6233)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_97_AlAl)
+]
+
+[(9/2,9/2,-5/2)  # FeAl -> FeAl at 9/2,9/2,-5/2   shell 64 (len 19.6233)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_98_AlAl)
+]
+
+[(4,4,-4)  # FeAl -> FeAl at 4,4,-4   shell 65 (len 19.8839)
+  Multiplicity 8
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_99_AlAl)
+]
+
+[(11/2,7/2,-5/2)  # FeAl -> FeAl at 11/2,7/2,-5/2   shell 66 (len 20.0387)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_100_AlAl)
+]
+
+[(13/2,5/2,-1/2)  # FeAl -> FeAl at 13/2,5/2,-1/2   shell 66 (len 20.0387)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_101_AlAl)
+]
+
+[(7,0,0)  # FeAl -> FeAl at 7,0,0   shell 67 (len 20.09)
+  Multiplicity 6
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_102_AlAl)
+]
+
+[(6,3,-2)  # FeAl -> FeAl at 6,3,-2   shell 67 (len 20.09)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_103_AlAl)
+]
+
+[(7,1,0)  # FeAl -> FeAl at 7,1,0   shell 68 (len 20.294)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_104_AlAl)
+]
+
+[(5,5,0)  # FeAl -> FeAl at 5,5,0   shell 68 (len 20.294)
+  Multiplicity 12
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_105_AlAl)
+]
+
+[(5,4,-3)  # FeAl -> FeAl at 5,4,-3   shell 68 (len 20.294)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_106_AlAl)
+]
+
+[(11/2,9/2,-1/2)  # FeAl -> FeAl at 11/2,9/2,-1/2   shell 69 (len 20.4456)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_107_AlAl)
+]
+
+[(13/2,5/2,-3/2)  # FeAl -> FeAl at 13/2,5/2,-3/2   shell 69 (len 20.4456)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_108_AlAl)
+]
+
+[(7,1,-1)  # FeAl -> FeAl at 7,1,-1   shell 70 (len 20.4959)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_109_AlAl)
+]
+
+[(5,5,-1)  # FeAl -> FeAl at 5,5,-1   shell 70 (len 20.4959)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_110_AlAl)
+]
+
+[(6,4,0)  # FeAl -> FeAl at 6,4,0   shell 71 (len 20.6959)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_111_AlAl)
+]
+
+[(9/2,9/2,-7/2)  # FeAl -> FeAl at 9/2,9/2,-7/2   shell 72 (len 20.8446)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_112_AlAl)
+]
+
+[(11/2,9/2,-3/2)  # FeAl -> FeAl at 11/2,9/2,-3/2   shell 72 (len 20.8446)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_113_AlAl)
+]
+
+[(6,4,-1)  # FeAl -> FeAl at 6,4,-1   shell 73 (len 20.8939)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_114_AlAl)
+]
+
+[(7,2,0)  # FeAl -> FeAl at 7,2,0   shell 73 (len 20.8939)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_115_AlAl)
+]
+
+[(7,2,-1)  # FeAl -> FeAl at 7,2,-1   shell 74 (len 21.0901)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_116_AlAl)
+]
+
+[(5,5,-2)  # FeAl -> FeAl at 5,5,-2   shell 74 (len 21.0901)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_117_AlAl)
+]
+
+[(6,3,-3)  # FeAl -> FeAl at 6,3,-3   shell 74 (len 21.0901)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_118_AlAl)
+]
+
+[(13/2,7/2,-1/2)  # FeAl -> FeAl at 13/2,7/2,-1/2   shell 75 (len 21.2361)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_119_AlAl)
+]
+
+[(13/2,5/2,-5/2)  # FeAl -> FeAl at 13/2,5/2,-5/2   shell 75 (len 21.2361)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_120_AlAl)
+]
+
+[(11/2,7/2,-7/2)  # FeAl -> FeAl at 11/2,7/2,-7/2   shell 75 (len 21.2361)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_121_AlAl)
+]
+
+[(6,4,-2)  # FeAl -> FeAl at 6,4,-2   shell 76 (len 21.4771)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_122_AlAl)
+]
+
+[(15/2,1/2,-1/2)  # FeAl -> FeAl at 15/2,1/2,-1/2   shell 77 (len 21.6205)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_123_AlAl)
+]
+
+[(13/2,7/2,-3/2)  # FeAl -> FeAl at 13/2,7/2,-3/2   shell 77 (len 21.6205)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_124_AlAl)
+]
+
+[(11/2,9/2,-5/2)  # FeAl -> FeAl at 11/2,9/2,-5/2   shell 77 (len 21.6205)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_125_AlAl)
+]
+
+[(5,4,-4)  # FeAl -> FeAl at 5,4,-4   shell 78 (len 21.668)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_126_AlAl)
+]
+
+[(7,2,-2)  # FeAl -> FeAl at 7,2,-2   shell 78 (len 21.668)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_127_AlAl)
+]
+
+[(7,3,0)  # FeAl -> FeAl at 7,3,0   shell 79 (len 21.8573)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_128_AlAl)
+]
+
+[(15/2,3/2,-1/2)  # FeAl -> FeAl at 15/2,3/2,-1/2   shell 80 (len 21.9981)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_129_AlAl)
+]
+
+[(5,5,-3)  # FeAl -> FeAl at 5,5,-3   shell 81 (len 22.0449)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_130_AlAl)
+]
+
+[(7,3,-1)  # FeAl -> FeAl at 7,3,-1   shell 81 (len 22.0449)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_131_AlAl)
+]
+
+[(11/2,11/2,-1/2)  # FeAl -> FeAl at 11/2,11/2,-1/2   shell 82 (len 22.3694)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_132_AlAl)
+]
+
+[(15/2,3/2,-3/2)  # FeAl -> FeAl at 15/2,3/2,-3/2   shell 82 (len 22.3694)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_133_AlAl)
+]
+
+[(13/2,7/2,-5/2)  # FeAl -> FeAl at 13/2,7/2,-5/2   shell 82 (len 22.3694)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_134_AlAl)
+]
+
+[(6,5,0)  # FeAl -> FeAl at 6,5,0   shell 83 (len 22.4154)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_135_AlAl)
+]
+
+[(6,4,-3)  # FeAl -> FeAl at 6,4,-3   shell 83 (len 22.4154)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_136_AlAl)
+]
+
+[(6,5,-1)  # FeAl -> FeAl at 6,5,-1   shell 84 (len 22.5984)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_137_AlAl)
+]
+
+[(7,3,-2)  # FeAl -> FeAl at 7,3,-2   shell 84 (len 22.5984)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_138_AlAl)
+]
+
+[(15/2,5/2,-1/2)  # FeAl -> FeAl at 15/2,5/2,-1/2   shell 85 (len 22.7347)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_139_AlAl)
+]
+
+[(13/2,9/2,-1/2)  # FeAl -> FeAl at 13/2,9/2,-1/2   shell 85 (len 22.7347)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_140_AlAl)
+]
+
+[(11/2,11/2,-3/2)  # FeAl -> FeAl at 11/2,11/2,-3/2   shell 85 (len 22.7347)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_141_AlAl)
+]
+
+[(11/2,9/2,-7/2)  # FeAl -> FeAl at 11/2,9/2,-7/2   shell 85 (len 22.7347)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_142_AlAl)
+]
+
+[(8,0,0)  # FeAl -> FeAl at 8,0,0   shell 86 (len 22.96)
+  Multiplicity 6
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_143_AlAl)
+]
+
+[(15/2,5/2,-3/2)  # FeAl -> FeAl at 15/2,5/2,-3/2   shell 87 (len 23.0941)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_144_AlAl)
+]
+
+[(13/2,9/2,-3/2)  # FeAl -> FeAl at 13/2,9/2,-3/2   shell 87 (len 23.0941)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_145_AlAl)
+]
+
+[(8,1,0)  # FeAl -> FeAl at 8,1,0   shell 88 (len 23.1387)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_146_AlAl)
+]
+
+[(7,4,0)  # FeAl -> FeAl at 7,4,0   shell 88 (len 23.1387)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_147_AlAl)
+]
+
+[(6,5,-2)  # FeAl -> FeAl at 6,5,-2   shell 88 (len 23.1387)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_148_AlAl)
+]
+
+[(8,1,-1)  # FeAl -> FeAl at 8,1,-1   shell 89 (len 23.316)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_149_AlAl)
+]
+
+[(7,4,-1)  # FeAl -> FeAl at 7,4,-1   shell 89 (len 23.316)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_150_AlAl)
+]
+
+[(5,5,-4)  # FeAl -> FeAl at 5,5,-4   shell 89 (len 23.316)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_151_AlAl)
+]
+
+[(11/2,11/2,-5/2)  # FeAl -> FeAl at 11/2,11/2,-5/2   shell 90 (len 23.4481)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_152_AlAl)
+]
+
+[(13/2,7/2,-7/2)  # FeAl -> FeAl at 13/2,7/2,-7/2   shell 90 (len 23.4481)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_153_AlAl)
+]
+
+[(7,3,-3)  # FeAl -> FeAl at 7,3,-3   shell 91 (len 23.492)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_154_AlAl)
+]
+
+[(8,2,0)  # FeAl -> FeAl at 8,2,0   shell 92 (len 23.6666)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_155_AlAl)
+]
+
+[(6,4,-4)  # FeAl -> FeAl at 6,4,-4   shell 92 (len 23.6666)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_156_AlAl)
+]
+
+[(15/2,7/2,-1/2)  # FeAl -> FeAl at 15/2,7/2,-1/2   shell 93 (len 23.7968)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_157_AlAl)
+]
+
+[(15/2,5/2,-5/2)  # FeAl -> FeAl at 15/2,5/2,-5/2   shell 93 (len 23.7968)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_158_AlAl)
+]
+
+[(13/2,9/2,-5/2)  # FeAl -> FeAl at 13/2,9/2,-5/2   shell 93 (len 23.7968)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_159_AlAl)
+]
+
+[(8,2,-1)  # FeAl -> FeAl at 8,2,-1   shell 94 (len 23.84)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_160_AlAl)
+]
+
+[(7,4,-2)  # FeAl -> FeAl at 7,4,-2   shell 94 (len 23.84)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_161_AlAl)
+]
+
+[(6,5,-3)  # FeAl -> FeAl at 6,5,-3   shell 95 (len 24.0121)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_162_AlAl)
+]
+
+[(15/2,7/2,-3/2)  # FeAl -> FeAl at 15/2,7/2,-3/2   shell 96 (len 24.1404)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_163_AlAl)
+]
+
+[(8,2,-2)  # FeAl -> FeAl at 8,2,-2   shell 97 (len 24.3528)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_164_AlAl)
+]
+
+[(6,6,0)  # FeAl -> FeAl at 6,6,0   shell 97 (len 24.3528)
+  Multiplicity 12
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_165_AlAl)
+]
+
+[(17/2,1/2,-1/2)  # FeAl -> FeAl at 17/2,1/2,-1/2   shell 98 (len 24.4793)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_166_AlAl)
+]
+
+[(13/2,11/2,-1/2)  # FeAl -> FeAl at 13/2,11/2,-1/2   shell 98 (len 24.4793)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_167_AlAl)
+]
+
+[(11/2,11/2,-7/2)  # FeAl -> FeAl at 11/2,11/2,-7/2   shell 98 (len 24.4793)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_168_AlAl)
+]
+
+[(8,3,0)  # FeAl -> FeAl at 8,3,0   shell 99 (len 24.5213)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_169_AlAl)
+]
+
+[(6,6,-1)  # FeAl -> FeAl at 6,6,-1   shell 99 (len 24.5213)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_170_AlAl)
+]
+
+[(7,5,0)  # FeAl -> FeAl at 7,5,0   shell 100 (len 24.6887)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_171_AlAl)
+]
+
+[(8,3,-1)  # FeAl -> FeAl at 8,3,-1   shell 100 (len 24.6887)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_172_AlAl)
+]
+
+[(7,4,-3)  # FeAl -> FeAl at 7,4,-3   shell 100 (len 24.6887)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_173_AlAl)
+]
+
+[(17/2,3/2,-1/2)  # FeAl -> FeAl at 17/2,3/2,-1/2   shell 101 (len 24.8135)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_174_AlAl)
+]
+
+[(13/2,11/2,-3/2)  # FeAl -> FeAl at 13/2,11/2,-3/2   shell 101 (len 24.8135)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_175_AlAl)
+]
+
+[(15/2,7/2,-5/2)  # FeAl -> FeAl at 15/2,7/2,-5/2   shell 101 (len 24.8135)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_176_AlAl)
+]
+
+[(13/2,9/2,-7/2)  # FeAl -> FeAl at 13/2,9/2,-7/2   shell 101 (len 24.8135)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_177_AlAl)
+]
+
+[(7,5,-1)  # FeAl -> FeAl at 7,5,-1   shell 102 (len 24.8549)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_178_AlAl)
+]
+
+[(6,6,-2)  # FeAl -> FeAl at 6,6,-2   shell 103 (len 25.0201)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_179_AlAl)
+]
+
+[(15/2,9/2,-1/2)  # FeAl -> FeAl at 15/2,9/2,-1/2   shell 104 (len 25.1432)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_180_AlAl)
+]
+
+[(17/2,3/2,-3/2)  # FeAl -> FeAl at 17/2,3/2,-3/2   shell 104 (len 25.1432)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_181_AlAl)
+]
+
+[(8,3,-2)  # FeAl -> FeAl at 8,3,-2   shell 105 (len 25.1841)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_182_AlAl)
+]
+
+[(6,5,-4)  # FeAl -> FeAl at 6,5,-4   shell 105 (len 25.1841)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_183_AlAl)
+]
+
+[(7,5,-2)  # FeAl -> FeAl at 7,5,-2   shell 106 (len 25.3472)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_184_AlAl)
+]
+
+[(17/2,5/2,-1/2)  # FeAl -> FeAl at 17/2,5/2,-1/2   shell 107 (len 25.4687)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_185_AlAl)
+]
+
+[(15/2,9/2,-3/2)  # FeAl -> FeAl at 15/2,9/2,-3/2   shell 107 (len 25.4687)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_186_AlAl)
+]
+
+[(13/2,11/2,-5/2)  # FeAl -> FeAl at 13/2,11/2,-5/2   shell 107 (len 25.4687)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_187_AlAl)
+]
+
+[(8,4,0)  # FeAl -> FeAl at 8,4,0   shell 108 (len 25.6701)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_188_AlAl)
+]
+
+[(17/2,5/2,-3/2)  # FeAl -> FeAl at 17/2,5/2,-3/2   shell 109 (len 25.7901)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_189_AlAl)
+]
+
+[(15/2,7/2,-7/2)  # FeAl -> FeAl at 15/2,7/2,-7/2   shell 109 (len 25.7901)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_190_AlAl)
+]
+
+[(8,4,-1)  # FeAl -> FeAl at 8,4,-1   shell 110 (len 25.83)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_191_AlAl)
+]
+
+[(7,4,-4)  # FeAl -> FeAl at 7,4,-4   shell 110 (len 25.83)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_192_AlAl)
+]
+
+[(6,6,-3)  # FeAl -> FeAl at 6,6,-3   shell 110 (len 25.83)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_193_AlAl)
+]
+
+[(0,9,-1)  # FeAl -> FeAl at 0,9,-1   shell 111 (len 25.989)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_194_AlAl)
+]
+
+[(8,3,-3)  # FeAl -> FeAl at 8,3,-3   shell 111 (len 25.989)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_195_AlAl)
+]
+
+[(15/2,9/2,-5/2)  # FeAl -> FeAl at 15/2,9/2,-5/2   shell 112 (len 26.1075)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_196_AlAl)
+]
+
+[(9,1,-1)  # FeAl -> FeAl at 9,1,-1   shell 113 (len 26.1469)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_197_AlAl)
+]
+
+[(7,5,-3)  # FeAl -> FeAl at 7,5,-3   shell 113 (len 26.1469)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_198_AlAl)
+]
+
+[(8,4,-2)  # FeAl -> FeAl at 8,4,-2   shell 114 (len 26.304)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_199_AlAl)
+]
+
+[(17/2,7/2,-1/2)  # FeAl -> FeAl at 17/2,7/2,-1/2   shell 115 (len 26.4212)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_200_AlAl)
+]
+
+[(13/2,13/2,-1/2)  # FeAl -> FeAl at 13/2,13/2,-1/2   shell 115 (len 26.4212)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_201_AlAl)
+]
+
+[(17/2,5/2,-5/2)  # FeAl -> FeAl at 17/2,5/2,-5/2   shell 115 (len 26.4212)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_202_AlAl)
+]
+
+[(13/2,11/2,-7/2)  # FeAl -> FeAl at 13/2,11/2,-7/2   shell 115 (len 26.4212)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_203_AlAl)
+]
+
+[(7,6,0)  # FeAl -> FeAl at 7,6,0   shell 116 (len 26.4601)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_204_AlAl)
+]
+
+[(0,9,-2)  # FeAl -> FeAl at 0,9,-2   shell 116 (len 26.4601)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_205_AlAl)
+]
+
+[(9,2,-1)  # FeAl -> FeAl at 9,2,-1   shell 117 (len 26.6153)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_206_AlAl)
+]
+
+[(7,6,-1)  # FeAl -> FeAl at 7,6,-1   shell 117 (len 26.6153)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_207_AlAl)
+]
+
+[(17/2,7/2,-3/2)  # FeAl -> FeAl at 17/2,7/2,-3/2   shell 118 (len 26.7311)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_208_AlAl)
+]
+
+[(13/2,13/2,-3/2)  # FeAl -> FeAl at 13/2,13/2,-3/2   shell 118 (len 26.7311)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_209_AlAl)
+]
+
+[(15/2,11/2,-1/2)  # FeAl -> FeAl at 15/2,11/2,-1/2   shell 118 (len 26.7311)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_210_AlAl)
+]
+
+[(6,6,-4)  # FeAl -> FeAl at 6,6,-4   shell 119 (len 26.923)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_211_AlAl)
+]
+
+[(15/2,11/2,-3/2)  # FeAl -> FeAl at 15/2,11/2,-3/2   shell 120 (len 27.0375)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_212_AlAl)
+]
+
+[(15/2,9/2,-7/2)  # FeAl -> FeAl at 15/2,9/2,-7/2   shell 120 (len 27.0375)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_213_AlAl)
+]
+
+[(8,5,0)  # FeAl -> FeAl at 8,5,0   shell 121 (len 27.0755)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_214_AlAl)
+]
+
+[(9,2,-2)  # FeAl -> FeAl at 9,2,-2   shell 121 (len 27.0755)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_215_AlAl)
+]
+
+[(7,6,-2)  # FeAl -> FeAl at 7,6,-2   shell 121 (len 27.0755)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_216_AlAl)
+]
+
+[(8,4,-3)  # FeAl -> FeAl at 8,4,-3   shell 121 (len 27.0755)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_217_AlAl)
+]
+
+[(8,5,-1)  # FeAl -> FeAl at 8,5,-1   shell 122 (len 27.2272)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_218_AlAl)
+]
+
+[(7,5,-4)  # FeAl -> FeAl at 7,5,-4   shell 122 (len 27.2272)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_219_AlAl)
+]
+
+[(0,9,-3)  # FeAl -> FeAl at 0,9,-3   shell 122 (len 27.2272)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_220_AlAl)
+]
+
+[(17/2,7/2,-5/2)  # FeAl -> FeAl at 17/2,7/2,-5/2   shell 123 (len 27.3404)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_221_AlAl)
+]
+
+[(13/2,13/2,-5/2)  # FeAl -> FeAl at 13/2,13/2,-5/2   shell 123 (len 27.3404)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_222_AlAl)
+]
+
+[(9,3,-1)  # FeAl -> FeAl at 9,3,-1   shell 124 (len 27.3781)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_223_AlAl)
+]
+
+[(1/2,19/2,-3/2)  # FeAl -> FeAl at 1/2,19/2,-3/2   shell 125 (len 27.6401)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_224_AlAl)
+]
+
+[(17/2,9/2,-1/2)  # FeAl -> FeAl at 17/2,9/2,-1/2   shell 125 (len 27.6401)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_225_AlAl)
+]
+
+[(15/2,11/2,-5/2)  # FeAl -> FeAl at 15/2,11/2,-5/2   shell 125 (len 27.6401)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_226_AlAl)
+]
+
+[(8,5,-2)  # FeAl -> FeAl at 8,5,-2   shell 126 (len 27.6773)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_227_AlAl)
+]
+
+[(9,3,-2)  # FeAl -> FeAl at 9,3,-2   shell 127 (len 27.8257)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_228_AlAl)
+]
+
+[(7,6,-3)  # FeAl -> FeAl at 7,6,-3   shell 127 (len 27.8257)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_229_AlAl)
+]
+
+[(19/2,3/2,-3/2)  # FeAl -> FeAl at 19/2,3/2,-3/2   shell 128 (len 27.9365)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_230_AlAl)
+]
+
+[(17/2,9/2,-3/2)  # FeAl -> FeAl at 17/2,9/2,-3/2   shell 128 (len 27.9365)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_231_AlAl)
+]
+
+[(8,4,-4)  # FeAl -> FeAl at 8,4,-4   shell 129 (len 28.1201)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_232_AlAl)
+]
+
+[(1/2,19/2,-5/2)  # FeAl -> FeAl at 1/2,19/2,-5/2   shell 130 (len 28.2298)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_233_AlAl)
+]
+
+[(17/2,7/2,-7/2)  # FeAl -> FeAl at 17/2,7/2,-7/2   shell 130 (len 28.2298)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_234_AlAl)
+]
+
+[(13/2,13/2,-7/2)  # FeAl -> FeAl at 13/2,13/2,-7/2   shell 130 (len 28.2298)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_235_AlAl)
+]
+
+[(0,9,-4)  # FeAl -> FeAl at 0,9,-4   shell 131 (len 28.2662)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_236_AlAl)
+]
+
+[(7,7,0)  # FeAl -> FeAl at 7,7,0   shell 132 (len 28.4116)
+  Multiplicity 12
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_237_AlAl)
+]
+
+[(9,4,-1)  # FeAl -> FeAl at 9,4,-1   shell 132 (len 28.4116)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_238_AlAl)
+]
+
+[(8,5,-3)  # FeAl -> FeAl at 8,5,-3   shell 132 (len 28.4116)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_239_AlAl)
+]
+
+[(15/2,13/2,-1/2)  # FeAl -> FeAl at 15/2,13/2,-1/2   shell 133 (len 28.5201)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_240_AlAl)
+]
+
+[(19/2,5/2,-3/2)  # FeAl -> FeAl at 19/2,5/2,-3/2   shell 133 (len 28.5201)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_241_AlAl)
+]
+
+[(17/2,9/2,-5/2)  # FeAl -> FeAl at 17/2,9/2,-5/2   shell 133 (len 28.5201)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_242_AlAl)
+]
+
+[(15/2,11/2,-7/2)  # FeAl -> FeAl at 15/2,11/2,-7/2   shell 133 (len 28.5201)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_243_AlAl)
+]
+
+[(7,7,-1)  # FeAl -> FeAl at 7,7,-1   shell 134 (len 28.5561)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_244_AlAl)
+]
+
+[(9,3,-3)  # FeAl -> FeAl at 9,3,-3   shell 134 (len 28.5561)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_245_AlAl)
+]
+
+[(8,6,0)  # FeAl -> FeAl at 8,6,0   shell 135 (len 28.7)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_246_AlAl)
+]
+
+[(15/2,13/2,-3/2)  # FeAl -> FeAl at 15/2,13/2,-3/2   shell 136 (len 28.8074)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_247_AlAl)
+]
+
+[(8,6,-1)  # FeAl -> FeAl at 8,6,-1   shell 137 (len 28.8431)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_248_AlAl)
+]
+
+[(9,4,-2)  # FeAl -> FeAl at 9,4,-2   shell 137 (len 28.8431)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_249_AlAl)
+]
+
+[(7,6,-4)  # FeAl -> FeAl at 7,6,-4   shell 137 (len 28.8431)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_250_AlAl)
+]
+
+[(7,7,-2)  # FeAl -> FeAl at 7,7,-2   shell 138 (len 28.9856)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_251_AlAl)
+]
+
+[(17/2,11/2,-1/2)  # FeAl -> FeAl at 17/2,11/2,-1/2   shell 139 (len 29.0919)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_252_AlAl)
+]
+
+[(19/2,5/2,-5/2)  # FeAl -> FeAl at 19/2,5/2,-5/2   shell 139 (len 29.0919)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_253_AlAl)
+]
+
+[(1/2,19/2,-7/2)  # FeAl -> FeAl at 1/2,19/2,-7/2   shell 139 (len 29.0919)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_254_AlAl)
+]
+
+[(8,6,-2)  # FeAl -> FeAl at 8,6,-2   shell 140 (len 29.2684)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_255_AlAl)
+]
+
+[(0,10,-2)  # FeAl -> FeAl at 0,10,-2   shell 140 (len 29.2684)
+  Multiplicity 12
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_256_AlAl)
+]
+
+[(19/2,7/2,-3/2)  # FeAl -> FeAl at 19/2,7/2,-3/2   shell 141 (len 29.3737)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_257_AlAl)
+]
+
+[(17/2,11/2,-3/2)  # FeAl -> FeAl at 17/2,11/2,-3/2   shell 141 (len 29.3737)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_258_AlAl)
+]
+
+[(15/2,13/2,-5/2)  # FeAl -> FeAl at 15/2,13/2,-5/2   shell 141 (len 29.3737)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_259_AlAl)
+]
+
+[(17/2,9/2,-7/2)  # FeAl -> FeAl at 17/2,9/2,-7/2   shell 141 (len 29.3737)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_260_AlAl)
+]
+
+[(1,10,-2)  # FeAl -> FeAl at 1,10,-2   shell 142 (len 29.4087)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_261_AlAl)
+]
+
+[(8,5,-4)  # FeAl -> FeAl at 8,5,-4   shell 142 (len 29.4087)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_262_AlAl)
+]
+
+[(9,4,-3)  # FeAl -> FeAl at 9,4,-3   shell 143 (len 29.5485)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_263_AlAl)
+]
+
+[(9,5,-1)  # FeAl -> FeAl at 9,5,-1   shell 144 (len 29.6875)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_264_AlAl)
+]
+
+[(7,7,-3)  # FeAl -> FeAl at 7,7,-3   shell 144 (len 29.6875)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_265_AlAl)
+]
+
+[(10,2,-2)  # FeAl -> FeAl at 10,2,-2   shell 145 (len 29.8259)
+  Multiplicity 12
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_266_AlAl)
+]
+
+[(19/2,7/2,-5/2)  # FeAl -> FeAl at 19/2,7/2,-5/2   shell 146 (len 29.9293)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_267_AlAl)
+]
+
+[(17/2,11/2,-5/2)  # FeAl -> FeAl at 17/2,11/2,-5/2   shell 146 (len 29.9293)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_268_AlAl)
+]
+
+[(8,6,-3)  # FeAl -> FeAl at 8,6,-3   shell 147 (len 29.9637)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_269_AlAl)
+]
+
+[(0,10,-3)  # FeAl -> FeAl at 0,10,-3   shell 147 (len 29.9637)
+  Multiplicity 12
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_270_AlAl)
+]
+
+[(9,5,-2)  # FeAl -> FeAl at 9,5,-2   shell 148 (len 30.1008)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_271_AlAl)
+]
+
+[(1,10,-3)  # FeAl -> FeAl at 1,10,-3   shell 148 (len 30.1008)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_272_AlAl)
+]
+
+[(15/2,13/2,-7/2)  # FeAl -> FeAl at 15/2,13/2,-7/2   shell 149 (len 30.2033)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_273_AlAl)
+]
+
+[(15/2,15/2,-1/2)  # FeAl -> FeAl at 15/2,15/2,-1/2   shell 150 (len 30.4748)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_274_AlAl)
+]
+
+[(19/2,9/2,-3/2)  # FeAl -> FeAl at 19/2,9/2,-3/2   shell 150 (len 30.4748)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_275_AlAl)
+]
+
+[(8,7,0)  # FeAl -> FeAl at 8,7,0   shell 151 (len 30.5085)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_276_AlAl)
+]
+
+[(10,3,-2)  # FeAl -> FeAl at 10,3,-2   shell 151 (len 30.5085)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_277_AlAl)
+]
+
+[(9,4,-4)  # FeAl -> FeAl at 9,4,-4   shell 151 (len 30.5085)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_278_AlAl)
+]
+
+[(8,7,-1)  # FeAl -> FeAl at 8,7,-1   shell 152 (len 30.6432)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_279_AlAl)
+]
+
+[(7,7,-4)  # FeAl -> FeAl at 7,7,-4   shell 152 (len 30.6432)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_280_AlAl)
+]
+
+[(17/2,13/2,-1/2)  # FeAl -> FeAl at 17/2,13/2,-1/2   shell 153 (len 30.7438)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_281_AlAl)
+]
+
+[(15/2,15/2,-3/2)  # FeAl -> FeAl at 15/2,15/2,-3/2   shell 153 (len 30.7438)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_282_AlAl)
+]
+
+[(19/2,7/2,-7/2)  # FeAl -> FeAl at 19/2,7/2,-7/2   shell 153 (len 30.7438)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_283_AlAl)
+]
+
+[(17/2,11/2,-7/2)  # FeAl -> FeAl at 17/2,11/2,-7/2   shell 153 (len 30.7438)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_284_AlAl)
+]
+
+[(9,5,-3)  # FeAl -> FeAl at 9,5,-3   shell 154 (len 30.7773)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_285_AlAl)
+]
+
+[(8,6,-4)  # FeAl -> FeAl at 8,6,-4   shell 155 (len 30.9108)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_286_AlAl)
+]
+
+[(0,10,-4)  # FeAl -> FeAl at 0,10,-4   shell 155 (len 30.9108)
+  Multiplicity 12
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_287_AlAl)
+]
+
+[(17/2,13/2,-3/2)  # FeAl -> FeAl at 17/2,13/2,-3/2   shell 156 (len 31.0106)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_288_AlAl)
+]
+
+[(19/2,9/2,-5/2)  # FeAl -> FeAl at 19/2,9/2,-5/2   shell 156 (len 31.0106)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_289_AlAl)
+]
+
+[(8,7,-2)  # FeAl -> FeAl at 8,7,-2   shell 157 (len 31.0438)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_290_AlAl)
+]
+
+[(1,10,-4)  # FeAl -> FeAl at 1,10,-4   shell 157 (len 31.0438)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_291_AlAl)
+]
+
+[(10,3,-3)  # FeAl -> FeAl at 10,3,-3   shell 158 (len 31.1762)
+  Multiplicity 12
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_292_AlAl)
+]
+
+[(9,6,-1)  # FeAl -> FeAl at 9,6,-1   shell 158 (len 31.1762)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_293_AlAl)
+]
+
+[(15/2,15/2,-5/2)  # FeAl -> FeAl at 15/2,15/2,-5/2   shell 159 (len 31.2751)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_294_AlAl)
+]
+
+[(10,4,-2)  # FeAl -> FeAl at 10,4,-2   shell 160 (len 31.4393)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_295_AlAl)
+]
+
+[(17/2,13/2,-5/2)  # FeAl -> FeAl at 17/2,13/2,-5/2   shell 161 (len 31.5374)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_296_AlAl)
+]
+
+[(9,6,-2)  # FeAl -> FeAl at 9,6,-2   shell 162 (len 31.57)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_297_AlAl)
+]
+
+[(8,7,-3)  # FeAl -> FeAl at 8,7,-3   shell 163 (len 31.7002)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_298_AlAl)
+]
+
+[(9,5,-4)  # FeAl -> FeAl at 9,5,-4   shell 163 (len 31.7002)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_299_AlAl)
+]
+
+[(19/2,11/2,-3/2)  # FeAl -> FeAl at 19/2,11/2,-3/2   shell 164 (len 31.7975)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_300_AlAl)
+]
+
+[(19/2,9/2,-7/2)  # FeAl -> FeAl at 19/2,9/2,-7/2   shell 164 (len 31.7975)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_301_AlAl)
+]
+
+[(15/2,15/2,-7/2)  # FeAl -> FeAl at 15/2,15/2,-7/2   shell 165 (len 32.0555)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_302_AlAl)
+]
+
+[(10,4,-3)  # FeAl -> FeAl at 10,4,-3   shell 166 (len 32.0876)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_303_AlAl)
+]
+
+[(9,6,-3)  # FeAl -> FeAl at 9,6,-3   shell 167 (len 32.2157)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_304_AlAl)
+]
+
+[(19/2,11/2,-5/2)  # FeAl -> FeAl at 19/2,11/2,-5/2   shell 168 (len 32.3114)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_305_AlAl)
+]
+
+[(17/2,13/2,-7/2)  # FeAl -> FeAl at 17/2,13/2,-7/2   shell 168 (len 32.3114)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_306_AlAl)
+]
+
+[(8,8,0)  # FeAl -> FeAl at 8,8,0   shell 169 (len 32.4703)
+  Multiplicity 12
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_307_AlAl)
+]
+
+[(17/2,15/2,-1/2)  # FeAl -> FeAl at 17/2,15/2,-1/2   shell 170 (len 32.5653)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_308_AlAl)
+]
+
+[(10,5,-2)  # FeAl -> FeAl at 10,5,-2   shell 171 (len 32.5969)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_309_AlAl)
+]
+
+[(8,8,-1)  # FeAl -> FeAl at 8,8,-1   shell 171 (len 32.5969)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_310_AlAl)
+]
+
+[(8,7,-4)  # FeAl -> FeAl at 8,7,-4   shell 171 (len 32.5969)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_311_AlAl)
+]
+
+[(17/2,15/2,-3/2)  # FeAl -> FeAl at 17/2,15/2,-3/2   shell 172 (len 32.8173)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_312_AlAl)
+]
+
+[(9,7,-1)  # FeAl -> FeAl at 9,7,-1   shell 173 (len 32.8487)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_313_AlAl)
+]
+
+[(8,8,-2)  # FeAl -> FeAl at 8,8,-2   shell 174 (len 32.9738)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_314_AlAl)
+]
+
+[(10,4,-4)  # FeAl -> FeAl at 10,4,-4   shell 174 (len 32.9738)
+  Multiplicity 12
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_315_AlAl)
+]
+
+[(19/2,11/2,-7/2)  # FeAl -> FeAl at 19/2,11/2,-7/2   shell 175 (len 33.0673)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_316_AlAl)
+]
+
+[(9,6,-4)  # FeAl -> FeAl at 9,6,-4   shell 176 (len 33.0985)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_317_AlAl)
+]
+
+[(10,5,-3)  # FeAl -> FeAl at 10,5,-3   shell 177 (len 33.2227)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_318_AlAl)
+]
+
+[(9,7,-2)  # FeAl -> FeAl at 9,7,-2   shell 177 (len 33.2227)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_319_AlAl)
+]
+
+[(19/2,13/2,-3/2)  # FeAl -> FeAl at 19/2,13/2,-3/2   shell 178 (len 33.3155)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_320_AlAl)
+]
+
+[(17/2,15/2,-5/2)  # FeAl -> FeAl at 17/2,15/2,-5/2   shell 178 (len 33.3155)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_321_AlAl)
+]
+
+[(8,8,-3)  # FeAl -> FeAl at 8,8,-3   shell 179 (len 33.5925)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_322_AlAl)
+]
+
+[(19/2,13/2,-5/2)  # FeAl -> FeAl at 19/2,13/2,-5/2   shell 180 (len 33.8064)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_323_AlAl)
+]
+
+[(9,7,-3)  # FeAl -> FeAl at 9,7,-3   shell 181 (len 33.8368)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_324_AlAl)
+]
+
+[(10,6,-2)  # FeAl -> FeAl at 10,6,-2   shell 182 (len 33.9583)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_325_AlAl)
+]
+
+[(17/2,15/2,-7/2)  # FeAl -> FeAl at 17/2,15/2,-7/2   shell 183 (len 34.0491)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_326_AlAl)
+]
+
+[(10,5,-4)  # FeAl -> FeAl at 10,5,-4   shell 184 (len 34.0794)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_327_AlAl)
+]
+
+[(8,8,-4)  # FeAl -> FeAl at 8,8,-4   shell 185 (len 34.44)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_328_AlAl)
+]
+
+[(17/2,17/2,-1/2)  # FeAl -> FeAl at 17/2,17/2,-1/2   shell 186 (len 34.5296)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_329_AlAl)
+]
+
+[(19/2,13/2,-7/2)  # FeAl -> FeAl at 19/2,13/2,-7/2   shell 186 (len 34.5296)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_330_AlAl)
+]
+
+[(10,6,-3)  # FeAl -> FeAl at 10,6,-3   shell 187 (len 34.5594)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_331_AlAl)
+]
+
+[(9,8,-1)  # FeAl -> FeAl at 9,8,-1   shell 188 (len 34.6783)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_332_AlAl)
+]
+
+[(9,7,-4)  # FeAl -> FeAl at 9,7,-4   shell 188 (len 34.6783)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_333_AlAl)
+]
+
+[(17/2,17/2,-3/2)  # FeAl -> FeAl at 17/2,17/2,-3/2   shell 189 (len 34.7673)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_334_AlAl)
+]
+
+[(19/2,15/2,-3/2)  # FeAl -> FeAl at 19/2,15/2,-3/2   shell 190 (len 35.0034)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_335_AlAl)
+]
+
+[(9,8,-2)  # FeAl -> FeAl at 9,8,-2   shell 191 (len 35.0328)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_336_AlAl)
+]
+
+[(17/2,17/2,-5/2)  # FeAl -> FeAl at 17/2,17/2,-5/2   shell 192 (len 35.2379)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_337_AlAl)
+]
+
+[(10,6,-4)  # FeAl -> FeAl at 10,6,-4   shell 193 (len 35.3837)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_338_AlAl)
+]
+
+[(19/2,15/2,-5/2)  # FeAl -> FeAl at 19/2,15/2,-5/2   shell 194 (len 35.4709)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_339_AlAl)
+]
+
+[(10,7,-2)  # FeAl -> FeAl at 10,7,-2   shell 195 (len 35.4999)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_340_AlAl)
+]
+
+[(9,8,-3)  # FeAl -> FeAl at 9,8,-3   shell 196 (len 35.6158)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_341_AlAl)
+]
+
+[(17/2,17/2,-7/2)  # FeAl -> FeAl at 17/2,17/2,-7/2   shell 197 (len 35.9324)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_342_AlAl)
+]
+
+[(10,7,-3)  # FeAl -> FeAl at 10,7,-3   shell 198 (len 36.0753)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_343_AlAl)
+]
+
+[(19/2,15/2,-7/2)  # FeAl -> FeAl at 19/2,15/2,-7/2   shell 199 (len 36.1609)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_344_AlAl)
+]
+
+[(9,8,-4)  # FeAl -> FeAl at 9,8,-4   shell 200 (len 36.4162)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_345_AlAl)
+]
+
+[(9,9,-1)  # FeAl -> FeAl at 9,9,-1   shell 201 (len 36.6417)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_346_AlAl)
+]
+
+[(19/2,17/2,-3/2)  # FeAl -> FeAl at 19/2,17/2,-3/2   shell 202 (len 36.8379)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_347_AlAl)
+]
+
+[(10,7,-4)  # FeAl -> FeAl at 10,7,-4   shell 203 (len 36.8658)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_348_AlAl)
+]
+
+[(9,9,-2)  # FeAl -> FeAl at 9,9,-2   shell 204 (len 36.9774)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_349_AlAl)
+]
+
+[(10,8,-2)  # FeAl -> FeAl at 10,8,-2   shell 205 (len 37.1995)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_350_AlAl)
+]
+
+[(19/2,17/2,-5/2)  # FeAl -> FeAl at 19/2,17/2,-5/2   shell 206 (len 37.2824)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_351_AlAl)
+]
+
+[(9,9,-3)  # FeAl -> FeAl at 9,9,-3   shell 207 (len 37.5301)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_352_AlAl)
+]
+
+[(10,8,-3)  # FeAl -> FeAl at 10,8,-3   shell 208 (len 37.749)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_353_AlAl)
+]
+
+[(19/2,17/2,-7/2)  # FeAl -> FeAl at 19/2,17/2,-7/2   shell 209 (len 37.9394)
+  Multiplicity 48
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_354_AlAl)
+]
+
+[(9,9,-4)  # FeAl -> FeAl at 9,9,-4   shell 210 (len 38.2906)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_355_AlAl)
+]
+
+[(10,8,-4)  # FeAl -> FeAl at 10,8,-4   shell 211 (len 38.5051)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_356_AlAl)
+]
+
+[(19/2,19/2,-3/2)  # FeAl -> FeAl at 19/2,19/2,-3/2   shell 212 (len 38.7981)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_357_AlAl)
+]
+
+[(10,9,-2)  # FeAl -> FeAl at 10,9,-2   shell 213 (len 39.0362)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_358_AlAl)
+]
+
+[(19/2,19/2,-5/2)  # FeAl -> FeAl at 19/2,19/2,-5/2   shell 214 (len 39.2204)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_359_AlAl)
+]
+
+[(10,9,-3)  # FeAl -> FeAl at 10,9,-3   shell 215 (len 39.5602)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_360_AlAl)
+]
+
+[(19/2,19/2,-7/2)  # FeAl -> FeAl at 19/2,19/2,-7/2   shell 216 (len 39.8455)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_361_AlAl)
+]
+
+[(10,9,-4)  # FeAl -> FeAl at 10,9,-4   shell 217 (len 40.2824)
+  Multiplicity 24
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_362_AlAl)
+]
+
+[(10,10,-2)  # FeAl -> FeAl at 10,10,-2   shell 218 (len 40.9918)
+  Multiplicity 6
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_363_AlAl)
+]
+
+[(10,10,-3)  # FeAl -> FeAl at 10,10,-3   shell 219 (len 41.4911)
+  Multiplicity 6
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_364_AlAl)
+]
+
+[(10,10,-4)  # FeAl -> FeAl at 10,10,-4   shell 220 (len 42.1802)
+  Multiplicity 6
+  SubstitutionalCorrelation(FeAl, FeAl, 0.64+sub_365_AlAl)
+]
+
+
+]
