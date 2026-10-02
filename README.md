@@ -27,8 +27,20 @@ All code was run on an NVIDIA RTX A6000 GPU and leverages a Python-based ecosyst
 * **gemmi / gemmi_disorder:** High-performance crystallographic library used to compute the 3D FFT diffuse structural intensity grids.
 * **H5Py:** Manages large-scale binary dataset storage for the ensemble profiles.
 
+## Running the notebooks
+
+Clone the repository and start Jupyter from the repository root:
+
+```bash
+git clone https://github.com/cynthia-wen/disordered-materials-fe-al-alloy.git
+cd disordered-materials-fe-al-alloy
+jupyter lab
+```
+
+The notebooks use paths relative to this root, for example `main/data/...`. VS Code uses the same root automatically through the workspace settings.
+
 ## Acknowledgments & Disclaimers
 
 * **Supervision:** This work was conducted as a mobility project at **ETH Zürich** under the supervision of **Prof. Arkadiy Simonov** at the **Laboratory for Disordered Materials**. Very heartfelt thanks to Prof. Arkadiy Simonov, Dr. Johnathan Bullard, and the rest of the lab for their invaluable guidance, resources, and experimental data during this project. 
 * **Errors:** All conceptual, mathematical, or code implementation mistakes contained within this codebase are entirely the author's responsibility.
-* **AI Assistance:** Parts of the code development and report drafting were assisted by large language model tools *(Gemini, Google)*
+* **AI Assistance:** Parts of the code development and report drafting were assisted by large language model tools *(Claude, Anthropic; Gemini, Alphabet)*
