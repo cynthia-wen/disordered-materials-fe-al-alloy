@@ -1,5 +1,5 @@
-# Hierarchically Modeling Structural Disorder in an Fe-Al Alloy
-### Monte Carlo $\rightarrow$ uMLIP Relaxation $\rightarrow$ Molecular Dynamics Pipeline
+# Modeling Disorder in a Binary Fe–20 at.% Al Alloy 
+### Yell Refinemnet $\rightarrow$ Histogram Reweighting $\rightarrow$ Monte Carlo $\rightarrow$ uMLIP Relaxation
 
 This repository contains the pipeline developed to simulate the structural disorder of a single-crystal iron-aluminium alloy (composition 80% Fe and 20% Al). 
 
@@ -7,17 +7,18 @@ This repository contains the pipeline developed to simulate the structural disor
 
 Extracting real-space structural information from single-crystal diffuse scattering experiments is historically difficult due to the overlapping signatures of chemical short-range order (SRO), static size-effect displacements, and thermal diffuse scattering (TDS).
 
-This pipeline works to untangle these signatures by sequentially activating physical degrees of freedom to isolate how each structural constraint distorts the reciprocal space mapping.
+This pipeline works to untangle these signatures by isolating and subsequently modeling how SRO and the size-effect distort the reciprocal space mapping.
 
 ### Computational Architecture
 
-The workflow progresses across a statistically sampled ensemble of 300 independent structures to eliminate stochastic noise and capture macroscopic thermodynamic behavior:
+The workflow progresses across a statistically sampled ensemble of 300 independent structures to eliminate stochastic noise and capture ensemble-averaged behavior:
 
-1. Initialization: 10x10x10 BCC Supercell (2,000 Atoms) + Stochastic Substitution: 80% Fe / 20% Al
-2. Rigid-Lattice Monte Carlo: 14M Steps, J = 1, T = 4.2
-3. Structural Relaxation: UMA Foundation Model (uMLIP) + BFGS Minimizer (Force Convergence Criterion: < 0.01 eV/Å)
-4. Molecular Dynamics: NVT Ensemble at 300 K via Langevin Thermostat (Timestep: 5.0 fs, Total Run Time: 15 ps)
-5. Diffuse Scattering Calculation: Ensemble-Averaged FFT Profiles via gemmi_disorder + (hk0) Slicing
+1. 3D-ΔPDF Refinement: Substitutional correlations are refined against synchrotron data in Yell (365 parameters, 220 shells, R_w = 26%)
+2. Histogram Reweighting: 12 shell-resolved interaction parameters (Js) fitted to the refined correlations; damped Levenberg–Marquardt updates until ΔR_norm < 10⁻⁴
+3. Initialization: 20×20×20 BCC supercell (16,000 atoms) + stochastic substitution, 80% Fe / 20% Al
+4. Rigid-Lattice Monte Carlo: 14M steps with the fitted Js at T = 0.2 (reduced units)
+5. Structural Relaxation: UMA foundation model (uma-s-1p2, OMat task head) + L-BFGS minimizer (force convergence < 0.01 eV/Å)
+6. Diffuse Scattering Calculation: Ensemble-averaged FFT profiles via gemmi_disorder, m-3m symmetrization, (hk0) and five (xkl) slices
 
 ## Software Stack & Environment
 
