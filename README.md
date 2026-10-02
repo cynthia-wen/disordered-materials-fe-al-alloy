@@ -67,7 +67,6 @@ disordered-materials-fe-al-alloy/
 ├── fe-al_mc_structures/ # Monte Carlo only
 ├── fe-al_relaxed_structures/ # + UMA relaxation
 └── fe-al_md_structures/ # + molecular dynamics
-...
 ```
 
 ## Running the notebooks
