@@ -1,7 +1,7 @@
 # Modeling Disorder in a Binary Fe–20 at.% Al Alloy 
 ### Yell Refinement $\rightarrow$ Histogram Reweighting $\rightarrow$ Monte Carlo $\rightarrow$ uMLIP Relaxation
 
-This repository contains the pipeline developed to simulate the structural disorder of a single-crystal iron-aluminium alloy (composition 80% Fe and 20% Al).
+This repository contains the pipeline developed to simulate the structural disorder of a single-crystal iron-aluminium alloy (composition 80% Fe and 20% Al). The full report is available as final_report.pdf in this repository.
 
 ## Project Overview & Rationale
 
@@ -14,7 +14,7 @@ This pipeline separates the problem rather than fitting all contributions simult
 The workflow progresses across a statistically sampled ensemble of 300 independent structures to eliminate stochastic noise and capture ensemble-averaged behavior:
 
 1. 3D-ΔPDF Refinement: Substitutional correlations are refined against synchrotron data in Yell (365 parameters, 220 shells, R_w = 26%)
-2. Histogram Reweighting: 12 shell-resolved interaction parameters (Js) fitted to the refined correlations; damped Levenberg–Marquardt updates until ΔR_norm < 10⁻⁴
+2. Histogram Reweighting: 12 shell-resolved interaction parameters (Js) fitted to the refined correlations, seeded by a least-squares fit of UMA energies on preliminary 10×10×10 configurations; damped Levenberg–Marquardt updates until ΔR_norm < 10⁻⁴
 3. Initialization: 20×20×20 BCC supercell (16,000 atoms) + stochastic substitution, 80% Fe / 20% Al
 4. Rigid-Lattice Monte Carlo: 14M steps with the fitted Js at T = 0.2 (reduced units)
 5. Structural Relaxation: UMA foundation model (uma-s-1p2, OMat task head) + L-BFGS minimizer (force convergence < 0.01 eV/Å)
