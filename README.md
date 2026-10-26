@@ -1,7 +1,7 @@
 # Modeling Disorder in a Binary Fe–20 at.% Al Alloy 
 ### Yell Refinement $\rightarrow$ Histogram Reweighting $\rightarrow$ Monte Carlo $\rightarrow$ uMLIP Relaxation
 
-This repository contains the pipeline developed to simulate the structural disorder of a single-crystal iron-aluminium alloy (composition 80% Fe and 20% Al). The full report can be found at: [LINK WILL BE UPDATED SHORTLY]
+This repository contains the pipeline developed to simulate the structural disorder of a single-crystal iron-aluminium alloy (composition 80% Fe and 20% Al).
 
 ## Project Overview & Rationale
 
