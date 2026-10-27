@@ -3,7 +3,7 @@ import random
 import numpy as np
 from ase.build import bulk
 from ase.io import write
-from shell_functions import shells_from_model, shell_vectors
+from main.scripts.fitting_js.shell_functions import shells_from_model, shell_vectors
 
 SUPERCELL_SIZE = (20, 20, 20)
 MC_STEPS = 14000000
